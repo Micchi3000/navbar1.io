@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <style type="text/css">
+  *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252A;
+}
+
+h1 {
+  font-size: 20px;
+  color: #fff;
+  font-wight: 700;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+li, a, button {
+  font-family: 'Montserrat', sans-serif;
+  font-wight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  starnsition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+  color: #0088a9;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136,169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+   background-color: rgba(0, 136,169, 0.8);
+}
+
+button:active { 
+  border-color: none;
+}
+
+    </style>
+  <title>Nav Bar2</title>
+</head>
+<body>
+  <header>
+  <h1 class="logo">Logo</h1>
+  <nav>
+    <ul class="nav_links">
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Project</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </nav>
+    <a href="#" class="cta"><button>Contact</button></a>
+    </header>
+</body>
+</html>
